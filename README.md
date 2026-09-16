@@ -160,7 +160,3 @@ The in-app setup screen (`/setup`) walks through the same steps with screenshots
   lost real debugging time to an old `main.py` silently still running.
 - **Notification never appears** — check the Shortcuts automation is enabled and **Ask Before
   Running** is off, and that Shortcuts has notification permission.
-
-## 📄 License
-
-No license has been chosen yet for this repository.
