@@ -1,0 +1,30 @@
+{
+  "schema_version": 4,
+  "game_id": "simon_demo",
+  "grid": { "rows": 8, "cols": 4 },
+  "clocks": { "step": { "advance_on": "hit" } },
+  "actions": [
+    { "id": "fail", "action_type": "end_game", "result": "fail" }
+  ],
+  "steps": [
+    { "id": "n0", "clock": "step", "at": 0, "pads": [2], "window_ms": 2000,
+      "on_hit":  { "score": 10, "feedback_color": [0,255,0], "haptic": {"duration_ms":40,"intensity":180} },
+      "on_miss": { "action": "fail", "feedback_color": [255,0,0], "haptic": {"duration_ms":250,"intensity":255} },
+      "on_timeout": { "action": "fail" } },
+
+    { "id": "n1", "clock": "step", "at": 1, "pads": [1], "window_ms": 2000,
+      "on_hit":  { "score": 10, "feedback_color": [0,255,0], "haptic": {"duration_ms":40,"intensity":180} },
+      "on_miss": { "action": "fail", "feedback_color": [255,0,0], "haptic": {"duration_ms":250,"intensity":255} },
+      "on_timeout": { "action": "fail" } },
+
+    { "id": "n2", "clock": "step", "at": 2, "pads": [6], "window_ms": 1800,
+      "on_hit":  { "score": 10, "feedback_color": [0,255,0], "haptic": {"duration_ms":40,"intensity":180} },
+      "on_miss": { "action": "fail", "feedback_color": [255,0,0], "haptic": {"duration_ms":250,"intensity":255} },
+      "on_timeout": { "action": "fail" } },
+
+    { "id": "n3", "clock": "step", "at": 3, "pads": [5], "window_ms": 1800,
+      "on_hit":  { "score": 10, "feedback_color": [0,255,0], "haptic": {"duration_ms":40,"intensity":180} },
+      "on_miss": { "action": "fail", "feedback_color": [255,0,0], "haptic": {"duration_ms":250,"intensity":255} },
+      "on_timeout": { "action": "fail" } }
+  ]
+}

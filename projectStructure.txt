@@ -1,0 +1,14 @@
+lib/
+ ├── main.dart
+ ├── screens/
+ │    ├── home_screen.dart           # Dashboard / Management
+ │    ├── virtual_board_screen.dart  # Der 4x4 Simulator
+ │    └── soundboard_screen.dart     # Soundboard UI
+ ├── widgets/
+ │    └── tapping_button.dart        # Wiederverwendbarer Button für das Board
+ ├── services/
+ │    ├── ble_service.dart           # Bluetooth Logik (Später für echtes Board)
+ │    ├── native_bridge.dart         # MethodChannel zu iOS (App Blocker)
+ │    └── llm_service.dart           # API Calls für neue Muster
+ └── state/
+      └── app_state.dart             # Riverpod Provider für App-Zustand

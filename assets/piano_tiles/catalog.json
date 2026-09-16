@@ -1,0 +1,64 @@
+{
+  "songs": [
+    {
+      "id": "eine_kleine_nachtmusik",
+      "title": "Eine kleine Nachtmusik",
+      "composer": "Wolfgang Amadeus Mozart",
+      "performer": "Academy of St. Martin in the Fields",
+      "bpm": 139.9,
+      "tile_count": 168,
+      "tiles_per_second": 2.32,
+      "chart": "assets/piano_tiles/charts/eine_kleine_nachtmusik.json",
+      "audio": "assets/piano_tiles/audio/eine_kleine_nachtmusik.m4a",
+      "length_ms": 74464,
+      "source": {
+        "file": "Academy of St. Martin in the Fields - Mozart_ Eine kleine Nachtmusik, K. 525_ I. Allegro.flac",
+        "excerpt_start_s": 5.065,
+        "excerpt_end_s": 79.529,
+        "tile": "quarter note",
+        "beats": "librosa (cleaned), tiles snapped to note onsets",
+        "gain_db": 3.1
+      }
+    },
+    {
+      "id": "canon_in_d",
+      "title": "Canon in D",
+      "composer": "Johann Pachelbel",
+      "performer": "Robert Haydon Clark",
+      "bpm": 43.5,
+      "tile_count": 193,
+      "tiles_per_second": 2.88,
+      "chart": "assets/piano_tiles/charts/canon_in_d.json",
+      "audio": "assets/piano_tiles/audio/canon_in_d.m4a",
+      "length_ms": 68990,
+      "source": {
+        "file": "Robert Haydon Clark - Canon in D Major.flac",
+        "excerpt_start_s": 0.005,
+        "excerpt_end_s": 68.995,
+        "tile": "sixteenth note",
+        "beats": "beat_this (cleaned), tiles snapped to note onsets",
+        "gain_db": 13.4
+      }
+    },
+    {
+      "id": "rondo_alla_turca",
+      "title": "Rondo alla Turca",
+      "composer": "Wolfgang Amadeus Mozart",
+      "performer": "van Groovehoven",
+      "bpm": 115.4,
+      "tile_count": 254,
+      "tiles_per_second": 3.85,
+      "chart": "assets/piano_tiles/charts/rondo_alla_turca.json",
+      "audio": "assets/piano_tiles/audio/rondo_alla_turca.m4a",
+      "length_ms": 67940,
+      "source": {
+        "file": "van Groovehoven - Mozart_ Rondo Alla Turca (mov 3. from Sonata no. 11, K. 331).flac",
+        "excerpt_start_s": 0.935,
+        "excerpt_end_s": 68.875,
+        "tile": "eighth note",
+        "beats": "beat_this (cleaned), tiles snapped to note onsets",
+        "gain_db": -1.9
+      }
+    }
+  ]
+}

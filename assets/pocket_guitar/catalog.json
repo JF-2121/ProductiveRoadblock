@@ -1,0 +1,86 @@
+{
+  "songs": [
+    {
+      "id": "livin_on_a_prayer",
+      "title": "Livin' On A Prayer",
+      "artist": "Bon Jovi",
+      "bpm": 122.3,
+      "chart": "assets/pocket_guitar/songs/livin_on_a_prayer.json",
+      "audio": "assets/pocket_guitar/audio/livin_on_a_prayer.m4a",
+      "length_ms": 83892,
+      "source": {
+        "file": "Bon Jovi - Livin' On A Prayer.flac",
+        "excerpt_start_s": 28.26,
+        "excerpt_end_s": 115.0,
+        "silent_lead_in_bars": 0,
+        "time_warped_to_constant_bpm": true
+      }
+    },
+    {
+      "id": "hotel_california",
+      "title": "Hotel California",
+      "artist": "Eagles",
+      "bpm": 73.7,
+      "chart": "assets/pocket_guitar/songs/hotel_california.json",
+      "audio": "assets/pocket_guitar/audio/hotel_california.m4a",
+      "length_ms": 86296,
+      "source": {
+        "file": "Eagles - Hotel California.flac",
+        "excerpt_start_s": 49.14,
+        "excerpt_end_s": 136.5,
+        "silent_lead_in_bars": 0,
+        "time_warped_to_constant_bpm": true
+      }
+    },
+    {
+      "id": "stairway_to_heaven",
+      "title": "Stairway to Heaven",
+      "artist": "Led Zeppelin",
+      "bpm": 71.8,
+      "chart": "assets/pocket_guitar/songs/stairway_to_heaven.json",
+      "audio": "assets/pocket_guitar/audio/stairway_to_heaven.m4a",
+      "length_ms": 86072,
+      "source": {
+        "file": "Led Zeppelin - Stairway to Heaven (Remaster).flac",
+        "excerpt_start_s": 0.02,
+        "excerpt_end_s": 84.0,
+        "silent_lead_in_bars": 1,
+        "time_warped_to_constant_bpm": true
+      }
+    },
+    {
+      "id": "michael_olise",
+      "title": "Michael Olise",
+      "artist": "Unknown",
+      "bpm": 76.9,
+      "chart": "assets/pocket_guitar/songs/michael_olise.json",
+      "audio": "assets/pocket_guitar/audio/michael_olise.m4a",
+      "length_ms": 81144,
+      "source": {
+        "file": "Michael_Olise.wav",
+        "excerpt_start_s": 46.0,
+        "excerpt_end_s": 126.0,
+        "silent_lead_in_bars": 0,
+        "time_warped_to_constant_bpm": false,
+        "chart_generated": "auto (energy-onset detection, Easy only, no pitch/melody analysis - not hand-tuned)"
+      }
+    },
+    {
+      "id": "versace",
+      "title": "Versace",
+      "artist": "Souly",
+      "bpm": 85.7,
+      "chart": "assets/pocket_guitar/songs/versace.json",
+      "audio": "assets/pocket_guitar/audio/versace.m4a",
+      "length_ms": 81213,
+      "source": {
+        "file": "SOULY - VERSACE.wav",
+        "excerpt_start_s": 26.0,
+        "excerpt_end_s": 106.0,
+        "silent_lead_in_bars": 0,
+        "time_warped_to_constant_bpm": false,
+        "chart_generated": "auto (energy-onset detection, Easy only, no pitch/melody analysis - not hand-tuned)"
+      }
+    }
+  ]
+}

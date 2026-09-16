@@ -1,0 +1,4 @@
+build
+!.vscode/*
+test/venv
+**/__pycache__/

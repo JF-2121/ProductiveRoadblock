@@ -1,0 +1,23 @@
+{
+  "schema_version": 4,
+  "game_id": "piano_tiles_demo",
+  "grid": { "rows": 8, "cols": 4 },
+  "clocks": { "step": { "advance_on": "hit" } },
+  "steps": [
+    { "id": "n0", "clock": "step", "at": 0, "pads": [3], "window_ms": null,
+      "on_hit":  { "score": 10, "feedback_color": [0,150,255], "haptic": {"duration_ms":40,"intensity":180} },
+      "on_miss": { "action": "fail", "feedback_color": [255,0,0], "haptic": {"duration_ms":250,"intensity":255} } },
+
+    { "id": "n1", "clock": "step", "at": 1, "pads": [1], "window_ms": null,
+      "on_hit":  { "score": 10, "feedback_color": [0,150,255], "haptic": {"duration_ms":40,"intensity":180} },
+      "on_miss": { "action": "fail", "feedback_color": [255,0,0], "haptic": {"duration_ms":250,"intensity":255} } },
+
+    { "id": "n2", "clock": "step", "at": 2, "pads": [2], "window_ms": null,
+      "on_hit":  { "score": 10, "feedback_color": [0,150,255], "haptic": {"duration_ms":40,"intensity":180} },
+      "on_miss": { "action": "fail", "feedback_color": [255,0,0], "haptic": {"duration_ms":250,"intensity":255} } },
+
+    { "id": "n3", "clock": "step", "at": 3, "pads": [0], "window_ms": null,
+      "on_hit":  { "score": 10, "feedback_color": [0,150,255], "haptic": {"duration_ms":40,"intensity":180} },
+      "on_miss": { "action": "fail", "feedback_color": [255,0,0], "haptic": {"duration_ms":250,"intensity":255} } }
+  ]
+}
